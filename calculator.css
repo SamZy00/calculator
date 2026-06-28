@@ -1,0 +1,56 @@
+        button{
+        font-size: 15px;
+        border-radius: 50%;
+        border: none;
+        height: 60px;
+        width: 60px;
+        left: 70%;
+        top: -20%;
+        transform: translate(110%, 380%);
+        background-color: green;
+    }
+    label{
+        top: 50%;
+        left: 50%;
+        transform: translate(80%, 80%);
+    }
+    .but{
+        background-color: greenyellow;
+    }
+    input{
+        left: 60%;
+        top: -20%;
+        transform: translate(-100%, 480%);
+        width: 300px;
+        height: 70px;   
+        border-radius: 50px;
+        border: none;
+        background-color: grey;
+        position: fixed;
+        z-index: 1;
+        padding-left: 10px;
+    }
+    .container{
+        background-color: black;
+        height: 650px;
+        border-radius: 50px;
+        border: none;
+        width: 400px;
+        user-select: none;
+        left: 50%;
+        top: 50px;
+        transform: translate(-210px, 5%);
+        position: fixed;
+    } 
+
+    @media (max-width: 768px){
+        input{
+            margin-left: 120px;
+        }
+
+        .container{
+            width: 370px;
+            margin-left: 25px;
+        }
+    }
+   
